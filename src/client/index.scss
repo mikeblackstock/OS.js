@@ -39,7 +39,7 @@
 @import "~@osjs/gui/dist/main.css";
 @import "~@osjs/dialogs/dist/main.css";
 @import "~@osjs/panels/dist/main.css";
-
+.osjs-window { &[data-focused=false] { opacity: 1 !important; } }
 body,
 html {
   width: 100%;
